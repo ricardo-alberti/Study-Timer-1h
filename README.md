@@ -4,3 +4,7 @@
 ```
 chmod +x timer 
 ```
+### Execute
+```
+./timer 
+```
