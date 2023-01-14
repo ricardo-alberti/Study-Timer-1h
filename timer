@@ -1,7 +1,7 @@
 #!/bin/bash
 
-studyCycle=2
-studyBreak=6
+studyCycle=216000
+studyBreak=600
 
 function CountStudyCycle {
  for((time=0; time<studyCycle; time++))
