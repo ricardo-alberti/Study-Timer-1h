@@ -1,4 +1,6 @@
 # Study-Timer-1h
 
-## Make file executable
-[ chmod +x timer ]
+### Make file executable
+```
+chmod +x timer 
+```
