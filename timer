@@ -1,0 +1,31 @@
+#!/bin/bash
+
+studyCycle=2
+studyBreak=6
+
+function CountStudyCycle {
+ for((time=0; time<studyCycle; time++))
+  do
+   sleep 1
+  done
+
+ notify-send "Break 10 min"
+ CountBreakCycle
+}
+
+
+function CountBreakCycle {
+ for((time=0; time<studyBreak; time++))
+  do
+   sleep 1
+  done
+
+ notify-send "Study 1h"
+ CountStudyCycle
+}
+
+
+CountStudyCycle
+
+
+
